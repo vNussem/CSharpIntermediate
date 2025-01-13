@@ -29,9 +29,19 @@ namespace ClassesProject
             // var person = new Person();
             // person.Name = "Vlad";
 
-            var person = Person.Parse("Vlad");
+            // var person = Person.Parse("Vlad");
 
-            person.Introduce("Mosh");
+            // person.Introduce("Mosh");
+
+            // var customer = new Customer(1, "Jhon");
+            // customer.Id = 1;
+            // customer.Name = "Jhon";
+            // customer.Orders.Add(new Order());
+
+            var customer = new Customer() { Id = 1, Name = "Jhon" };
+
+            Console.WriteLine(customer.Id);
+            Console.WriteLine(customer.Name);
         }
     }
 }
