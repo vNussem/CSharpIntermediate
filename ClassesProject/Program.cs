@@ -43,6 +43,11 @@ namespace ClassesProject
             // Console.WriteLine(customer.Id);
             // Console.WriteLine(customer.Name);
 
+
+        }
+
+        public static void UseParse()
+        {
             try
             {
                 var num = int.Parse("abc");
